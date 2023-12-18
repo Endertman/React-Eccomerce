@@ -15,13 +15,13 @@ export const NavBar = () => {
         <Typography variant="h6" component={Link} to="/" color="inherit" sx={{ textDecoration: 'none' }}>
           Aeroco
         </Typography>
-        <Button component={Link} to="#" color="inherit" sx={{ marginLeft: 'auto', textDecoration: 'none' }}>
+        <Button component={Link} to="/categoria/Malliots" color="inherit" sx={{ marginLeft: 'auto', textDecoration: 'none' }}>
           Malliots
         </Button>
-        <Button component={Link} to="#" color="inherit" sx={{ textDecoration: 'none' }}>
+        <Button component={Link} to="/categoria/Culottes" color="inherit" sx={{ textDecoration: 'none' }}>
           Culottes
         </Button>
-        <Button component={Link} to="#" color="inherit" sx={{ textDecoration: 'none' }}>
+        <Button component={Link} to="/categoria/Accesorios" color="inherit" sx={{ textDecoration: 'none' }}>
           Accesorios
         </Button>
         <CartWidget />

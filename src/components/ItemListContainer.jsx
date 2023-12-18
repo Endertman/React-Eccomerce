@@ -42,7 +42,6 @@ export const ItemListContainer = () => {
 
   return (
     <Container className="mt-4">
-      <Typography variant="h4">Tejidos</Typography>
       {loading ? <Typography variant="h6">Cargando...</Typography> : <ItemList items={items} />}
     </Container>
   );
