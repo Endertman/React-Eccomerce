@@ -11,9 +11,11 @@ export const CartWidget = () => {
 
   return (
     <Link to='/cart' className='nav-link'>
-      <Badge badgeContent={total} color='error'>
+      <Badge badgeContent={total} color='action'>
         <ShoppingCartIcon fontSize='large' />
       </Badge>
     </Link>
   );
 };
+
+
